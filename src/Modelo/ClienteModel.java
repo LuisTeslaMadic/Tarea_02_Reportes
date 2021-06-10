@@ -82,7 +82,7 @@ public class ClienteModel {
 				try {
 					con.close();
 				} catch (SQLException e) {
-					System.err.println(">> Error al cerrar la conexión");
+					System.err.println(">> Error al cerrar la conexión"+e);
 				}
 			}
 		}
